@@ -1,0 +1,30 @@
+{
+  "name": "ethereum-in-depth",
+  "version": "1.0.0",
+  "description": "Learning Ethereum in depth",
+  "main": "truffle.js",
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facuspagnuolo/ethereum-in-depth.git"
+  },
+  "keywords": [
+    "ethereum",
+    "solidity",
+    "smartcontracts",
+    "evm"
+  ],
+  "author": "Facu Spagnuolo <facundo_spagnuolo@icloud.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/facuspagnuolo/ethereum-in-depth/issues"
+  },
+  "homepage": "https://github.com/facuspagnuolo/ethereum-in-depth#readme",
+  "dependencies": {
+    "ethereumjs-testrpc": "^6.0.3",
+    "truffle": "^4.0.1",
+    "web3": "^1.0.0-beta.26"
+  }
+}
