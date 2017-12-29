@@ -23,8 +23,7 @@
   },
   "homepage": "https://github.com/facuspagnuolo/ethereum-in-depth#readme",
   "dependencies": {
-    "ethereumjs-testrpc": "^6.0.3",
     "truffle": "^4.0.1",
-    "web3": "^1.0.0-beta.26"
+    "ethereumjs-testrpc": "^6.0.2"
   }
 }

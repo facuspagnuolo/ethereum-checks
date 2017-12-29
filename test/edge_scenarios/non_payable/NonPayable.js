@@ -6,9 +6,11 @@ contract('Given a non payable contract', accounts => {
     const nonPayable = await NonPayable.new()
 
     try {
-      await nonPayable.sendTransaction({from: accounts[0], value: 1000, gasPrice: 0})
+      await nonPayable.sendTransaction({ from: accounts[0], value: 1000, gasPrice: 0 })
+      assert.fail();
     } catch(error) {
-      assert(error.message.search('invalid opcode') > 0);
+      console.log(error)
+      assert(error.message.search('revert') > 0);
     }
   })
 })
