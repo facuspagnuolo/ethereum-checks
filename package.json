@@ -22,8 +22,7 @@
     "url": "https://github.com/facuspagnuolo/ethereum-in-depth/issues"
   },
   "homepage": "https://github.com/facuspagnuolo/ethereum-in-depth#readme",
-  "dependencies": {
-    "truffle": "^4.0.1",
-    "ethereumjs-testrpc": "^6.0.2"
+  "devDependencies": {
+    "truffle": "^4.0.5"
   }
 }
