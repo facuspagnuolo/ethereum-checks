@@ -11,7 +11,7 @@ contract Delegator {
   }
 
   function () public payable {
-    DelegatorLog(msg.gas);
+    DelegatorLog(gasleft());
 
     address _impl = implementation;
     bytes memory data = msg.data;
@@ -19,6 +19,6 @@ contract Delegator {
       let result := delegatecall(gas, _impl, add(data, 0x20), mload(data), 0, 0)
     }
 
-    DelegatorLog(msg.gas);
+    emit DelegatorLog(gasleft());
   }
 }

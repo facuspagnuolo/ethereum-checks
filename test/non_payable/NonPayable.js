@@ -1,7 +1,6 @@
-const NonPayable = artifacts.require('./NonPayable.sol')
+const NonPayable = artifacts.require('NonPayable.sol')
 
-contract('Given a non payable contract', accounts => {
-
+contract('NonPayable', accounts => {
   it('reverts if someone tries to send it funds', async function () {
     const nonPayable = await NonPayable.new()
 

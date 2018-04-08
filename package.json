@@ -1,14 +1,14 @@
 {
-  "name": "ethereum-in-depth",
+  "name": "ethereum-checks",
   "version": "1.0.0",
-  "description": "Learning Ethereum in depth",
+  "description": "Testing edge cases to check how the EVM actually works",
   "main": "truffle.js",
   "scripts": {
     "test": "truffle test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/facuspagnuolo/ethereum-in-depth.git"
+    "url": "git+https://github.com/facuspagnuolo/ethereum-checks.git"
   },
   "keywords": [
     "ethereum",
@@ -19,10 +19,10 @@
   "author": "Facu Spagnuolo <facundo_spagnuolo@icloud.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/facuspagnuolo/ethereum-in-depth/issues"
+    "url": "https://github.com/facuspagnuolo/ethereum-checks/issues"
   },
-  "homepage": "https://github.com/facuspagnuolo/ethereum-in-depth#readme",
+  "homepage": "https://github.com/facuspagnuolo/ethereum-checks#readme",
   "devDependencies": {
-    "truffle": "^4.0.5"
+    "truffle": "^4.1.5"
   }
 }

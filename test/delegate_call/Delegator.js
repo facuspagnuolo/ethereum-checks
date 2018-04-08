@@ -1,7 +1,7 @@
-const Delegator = artifacts.require('./Delegator.sol')
-const Implementation = artifacts.require('./Implementation.sol')
+const Delegator = artifacts.require('Delegator.sol')
+const Implementation = artifacts.require('Implementation.sol')
 
-contract('Given a proxy contract', accounts => {
+contract('Delegator', accounts => {
   it('throws if some tries to send it funds', async function () {
     const implementation = await Implementation.new();
     const proxy = await Delegator.new(implementation.address);
